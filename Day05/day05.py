@@ -104,5 +104,4 @@ if __name__ == '__main__':
         loc = process_range(maps, r)
         if min_loc is None or loc < min_loc:
             min_loc = loc
-    print('overall min', min_loc)
-    # Ran on Raphael, answer is 137516820
+    print('overal min', min_loc)
